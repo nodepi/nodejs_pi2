@@ -12,7 +12,9 @@ else
 fi
 
 # get the appropriate tar.gz
-curl "http://nodepi.github.io/node_pi2/node_0.12.1.tar.gz" -o nodepi/node_0.12.1.tar.gz
+echo "downlaoding archive"
+curl "http://nodepi.github.io/node_pi2/node_0.12.1.tar.gz" -o nodepi/node_0.12.1.tar.gz -#
 # extract into tmp folder
+
 # copy to exec path
 # clean tmp folder
