@@ -13,8 +13,9 @@ fi
 
 # get the appropriate tar.gz
 echo "downlaoding archive"
-curl "http://nodepi.github.io/node_pi2/node_0.12.1.tar.gz" -o nodepi/node_0.12.1.tar.gz -#
+curl "http://nodepi.github.io/nodejs_pi2/node_0.12.1.tar.gz" -o nodepi/node_0.12.1.tar.gz -#
 # extract into tmp folder
-
+cd nodepi
+tar -xvzf node_0.12.1.tar.gz
 # copy to exec path
 # clean tmp folder
